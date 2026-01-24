@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{
+         background-image:url("simles.jpg")
+        }
+        .headernav{
+            width:1280px ;
+            height: 50px;
+            background: black;
+            margin:20px  auto;
+        }
+        .headernav > ul{
+            list-style: none;
+            height: 100% !important;
+        }
+        .headernav > ul > li:hover > a{
+           background: orangered;
+        }
+        .headernav > ul > li > a{
+            float: left;
+        }
+        .headernav > ul > li >a{
+            display: inline-block;
+          
+            height: 12px;
+            line-height: 12px;
+            padding:19px ;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            text-decoration: none;
+        }
+        .active{
+            background: orangered;
+        }
+        .ufoimg{
+            background-image: url("brid.html");
+            background-repeat: no-repeat;
+            background-size: 15px 15px;
+            background-position: 0px 15px;
+        }
+        .submenu{
+            width: 250px;
+            height: 300px;
+            background: white;
+           position: absolute;
+           top: 50px;
+           left: 0px;
+           list-style: none;
+           padding-left: 0px;
+        }
+        .menu > li{
+            position: relative;
+        }
+        .submenu > li > a{
+            display: block;
+            width: 224px;
+            height: 60px;
+            padding-left:26px ;
+            line-height: 60px;
+            background:orangered ;
+            color: gray;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="headernav">
+        <ul class="menu">
+            <li>
+              <a href="#" class="ufoimg">company logo</a>    
+            </li>
+            <li>
+                 <a href="#" class="active">active</a>
+            </li>
+            <li>
+                 <a href="#">drop down</a></li>
+                 <ul class="submenu">
+                    <li>
+                        <a href="#">item one</a>
+                    </li>
+
+                    <li>
+                        <a href="#">item right side</a>
+                    </li>
+                    <li>
+                        <a href="#">item 2</a>
+                    </li>
+                    <li>
+                        <a href="#">item left side</a>
+                    </li>
+                    <li>
+                        <a href="#">item 4</a>
+                    </li>
+                 </ul>
+            <li>
+                 <a href="#">mega menu</a>
+            </li>
+            <li> 
+                 <a href="#">grid</a>
+            </li>
+            <li>
+                <a href="#"> tab bar</a>
+            </li>
+            <li>
+                 <a href="#">images</a>
+            </li>
+            <li>
+                <a href="#">contact</a>
+            </li>
+        </ul>
+          
+    </nav>
+</body>
+</html>
